@@ -4,7 +4,7 @@ from utils.utils import read_config
 
 class MongoRepository:
 
-    MONGO_COLLECTION = None
+    __MONGO_COLLECTION = None
 
     def __init__(self):
         mongo_config = read_config("config/config.json")["mongo_db_configuration"]
@@ -13,4 +13,4 @@ class MongoRepository:
 
         database = client[mongo_config["database"]]
 
-        self.MONGO_COLLECTION = database.get_collection(name=mongo_config["collection"])
+        self.__MONGO_COLLECTION = database.get_collection(name=mongo_config["collection"])
