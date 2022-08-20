@@ -1,0 +1,8 @@
+{
+  "mongo_db_configuration": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "Animal",
+    "collection": "animal"
+  }
+}

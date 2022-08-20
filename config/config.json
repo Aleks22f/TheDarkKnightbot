@@ -1,8 +1,0 @@
-{
-  "mongo_db_configuration": {
-    "host": "some_host",
-    "port": "some_port",
-    "database": "some_database",
-    "collection": "some_collection"
-  }
-}
