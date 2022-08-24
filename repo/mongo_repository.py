@@ -14,7 +14,3 @@ class MongoRepository:
         database = client[mongo_config["database"]]
 
         self.__MONGO_COLLECTION = database.get_collection(name=mongo_config["collection"])
-
-
-    def find_all(self):
-        return self.__MONGO_COLLECTION.find()
