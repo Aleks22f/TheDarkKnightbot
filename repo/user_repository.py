@@ -11,6 +11,9 @@ class MongoRepository:
 
         client = MongoClient(host=mongo_config["host"], port=mongo_config["port"])
 
+        print(client.list_database_names())
+
         database = client[mongo_config["database"]]
 
         self.__MONGO_COLLECTION = database.get_collection(name=mongo_config["collection"])
+
