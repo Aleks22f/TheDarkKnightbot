@@ -4,5 +4,6 @@
     "port": 27017,
     "database": "TheDarkKnightbot",
     "collection": "User"
-  }
+  },
+  "bot_api_key": "5486480610:AAG__Eowe3JnF-QJFXSk_4vltJxWVf6IVC0"
 }
